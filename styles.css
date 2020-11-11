@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(231, 202, 202);
+}
+
+#bar {    
+    position: relative;
+    margin-left: 792px;
+    padding-bottom: 10px;
+    font-family: "Sofia";
+}
+#reset {
+    font-family: "Sofia";
+
+}
+#rainbow {
+    font-family: "Sofia";
+}
+#black {
+    font-family: "Sofia";
+}
+#container {
+    display: inline-block;
+    background-color: royalblue;
+    height:600px;
+    width: 600px;
+    margin-left: 650px;
+    border-radius: 9px;
+    border: black 5px solid;
+    position: absolute;
+}
+#random {
+    font-family: sofia;
+}
+
+.grid {
+    max-height: 500px;
+    max-width: 500px;
+    min-width: 0px;
+    min-height: 0px;
+}
+
+#header {
+    text-align: center;
+    font-family: "Sofia";
+    font-size: 75px;
+    color: rgb(64, 87, 192);
+    margin-top: 10px;
+}
+#gridStorage {
+    border: black 5px solid;
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 500px;
+    width: 500px;
+    margin-top: 40px;
+    margin-left: 45px;
+    border-radius: 10px;
+    background-color: white;
+    max-height: 500px;
+    max-width: 500px;
+    align-content: stretch;
+    min-width: 500px;
+    position: absolute;
+}
